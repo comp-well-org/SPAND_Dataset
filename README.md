@@ -1,1 +1,6 @@
 # SPAND_Dataset
+Anonymized dataset containing fetaure data and graph data extracted from mobile data. To protect study participants' privacy and consent and since some of the participants did not consent to sharing their data with the third-party researchers, data has been deidentified. Furthermore, data has been transformed in a way that an individual participant's data can not be identified. This process can be reversed and data can be used to reproduce to the results presented in this work or for developing new machine learning solutions through standardization of data. Please refer to the standardization process reported in the paper.
+
+The file 'feature.csv' contains anonymized user ID in first column, followed by anonymized timestamp. The timestamp is anonymized but the sequence is preserved i.e difference between timestamps when samples were collected is preserved. The third column 'time_in_bed' contains the sleep label.
+
+The Graph data is contained two pickle files. Call_graph.pkl and Sms_graph.pkl contain the graphs extracted from call and sms metadata.
